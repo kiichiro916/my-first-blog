@@ -6,7 +6,7 @@ class OperationSchedule(models.Model):
 	patient_name = models.CharField(max_length=20)
 	operation_start_time = models.DateTimeField(default=timezone.now)
 	operation_finish_estimation_time = models.DateTimeField(default=timezone.now)
-	file_path = models.FilePathField(path="/Users/Kiichiro/djangogirls")
+	file_path = models.FilePathField(path="/")
 
 	def __str__(self):
 		return self.operation_name
