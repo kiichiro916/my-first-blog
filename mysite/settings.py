@@ -181,5 +181,10 @@ LOGGING = {
             'level': 'INFO',
             'propagate': False,
         },
+        'opsched': {
+            'handlers': ['blog'],
+            'level': 'INFO',
+            'propagate': False,
+        },
     }
 }
